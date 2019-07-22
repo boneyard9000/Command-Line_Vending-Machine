@@ -1,0 +1,6 @@
+22:01:20.250 2019-06-09 FEED AMOUNT: $12.0 Ending Balance: $12.0
+22:01:21.185 2019-06-09 FEED AMOUNT: $12.0 Ending Balance: $24.0
+22:01:23.825 2019-06-09 Stackers A2 Starting Balance: $24.0 Ending Balance: $22.55
+22:01:26.081 2019-06-09 Grain Waves A3 Starting Balance: $22.55 Ending Balance: $19.8
+22:01:28.866 2019-06-09 Heavy C4 Starting Balance: $19.8 Ending Balance: $18.3
+22:01:29.874 2019-06-09 MAKE CHANGE: $18.3 Ending Balance: $0.00
