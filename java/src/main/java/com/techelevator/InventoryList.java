@@ -253,12 +253,15 @@ public class InventoryList {
    	 File destFile = new File(fileName);
    	 try (PrintWriter writer = new PrintWriter( new FileOutputStream(destFile, true))) {
    	  if (destFile.createNewFile() || destFile.exists()) {
+   	 	 writer.println();
+   	 	 writer.println();
    	   for (Product item : productList) {
    	    writer.println(item.getName() + " Amount Sold: " + item.getNumberSold());
    	   }
    	   writer.println();
    	   writer.print("***TOTAL SALES*** $");
    	   writer.format("%.2f", totalSales);
+   	   writer.println();
    	   writer.close();
 
    	   
@@ -268,14 +271,14 @@ public class InventoryList {
    	 } catch (FileNotFoundException e) {
    	  System.out.println("File not found!");
    	 } catch (IOException e) {
-   	  System.out.println("Can't create new file.");
+   	  System.out.println("Cannot create new file.");
    	 }
    	}
    public void generateSales() {
    	 for (String key : vendingItems.keySet()) {
    	  Product currentProduct = vendingItems.get(key);
    	  String productName = currentProduct.getName();
-   	  int inventorySold = currentProduct.getInventorySold();
+   	  int inventorySold = currentProduct.getNumberSold();
    	  String salesReportLine = String.format("%-22s", productName) + String.format("|%-3s|", inventorySold);
    	  salesFile.add(salesReportLine);
    	 }

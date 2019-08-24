@@ -15,4 +15,161 @@ Little League Chew Amount Sold: 0
 Chiclets Amount Sold: 0
 Triplemint Amount Sold: 0
 
-***TOTAL SALES*** $5.70
+***TOTAL SALES*** $5.70Potato Crisps Amount Sold: 1
+Stackers Amount Sold: 0
+Grain Waves Amount Sold: 0
+Cloud Popcorn Amount Sold: 0
+Moonpie Amount Sold: 0
+Cowtales Amount Sold: 0
+Wonka Bar Amount Sold: 0
+Crunchie Amount Sold: 0
+Cola Amount Sold: 0
+Dr. Salt Amount Sold: 0
+Mountain Melter Amount Sold: 0
+Heavy Amount Sold: 0
+U-Chews Amount Sold: 0
+Little League Chew Amount Sold: 0
+Chiclets Amount Sold: 0
+Triplemint Amount Sold: 0
+
+***TOTAL SALES*** $3.05Potato Crisps Amount Sold: 1
+Stackers Amount Sold: 0
+Grain Waves Amount Sold: 0
+Cloud Popcorn Amount Sold: 0
+Moonpie Amount Sold: 0
+Cowtales Amount Sold: 0
+Wonka Bar Amount Sold: 0
+Crunchie Amount Sold: 0
+Cola Amount Sold: 0
+Dr. Salt Amount Sold: 0
+Mountain Melter Amount Sold: 0
+Heavy Amount Sold: 0
+U-Chews Amount Sold: 0
+Little League Chew Amount Sold: 0
+Chiclets Amount Sold: 0
+Triplemint Amount Sold: 0
+
+***TOTAL SALES*** $3.05Potato Crisps Amount Sold: 1
+Stackers Amount Sold: 1
+Grain Waves Amount Sold: 0
+Cloud Popcorn Amount Sold: 0
+Moonpie Amount Sold: 0
+Cowtales Amount Sold: 0
+Wonka Bar Amount Sold: 0
+Crunchie Amount Sold: 0
+Cola Amount Sold: 0
+Dr. Salt Amount Sold: 0
+Mountain Melter Amount Sold: 0
+Heavy Amount Sold: 1
+U-Chews Amount Sold: 0
+Little League Chew Amount Sold: 0
+Chiclets Amount Sold: 0
+Triplemint Amount Sold: 1
+
+***TOTAL SALES*** $6.75Potato Crisps Amount Sold: 5
+Stackers Amount Sold: 5
+Grain Waves Amount Sold: 0
+Cloud Popcorn Amount Sold: 0
+Moonpie Amount Sold: 0
+Cowtales Amount Sold: 0
+Wonka Bar Amount Sold: 0
+Crunchie Amount Sold: 0
+Cola Amount Sold: 0
+Dr. Salt Amount Sold: 0
+Mountain Melter Amount Sold: 1
+Heavy Amount Sold: 1
+U-Chews Amount Sold: 0
+Little League Chew Amount Sold: 0
+Chiclets Amount Sold: 0
+Triplemint Amount Sold: 1
+
+***TOTAL SALES*** $26.25Potato Crisps Amount Sold: 0
+Stackers Amount Sold: 0
+Grain Waves Amount Sold: 0
+Cloud Popcorn Amount Sold: 0
+Moonpie Amount Sold: 0
+Cowtales Amount Sold: 0
+Wonka Bar Amount Sold: 0
+Crunchie Amount Sold: 0
+Cola Amount Sold: 0
+Dr. Salt Amount Sold: 0
+Mountain Melter Amount Sold: 0
+Heavy Amount Sold: 0
+U-Chews Amount Sold: 1
+Little League Chew Amount Sold: 0
+Chiclets Amount Sold: 0
+Triplemint Amount Sold: 0
+
+***TOTAL SALES*** $0.85Potato Crisps Amount Sold: 0
+Stackers Amount Sold: 0
+Grain Waves Amount Sold: 0
+Cloud Popcorn Amount Sold: 0
+Moonpie Amount Sold: 0
+Cowtales Amount Sold: 0
+Wonka Bar Amount Sold: 0
+Crunchie Amount Sold: 0
+Cola Amount Sold: 0
+Dr. Salt Amount Sold: 0
+Mountain Melter Amount Sold: 0
+Heavy Amount Sold: 0
+U-Chews Amount Sold: 0
+Little League Chew Amount Sold: 1
+Chiclets Amount Sold: 0
+Triplemint Amount Sold: 0
+
+***TOTAL SALES*** $0.95
+Potato Crisps Amount Sold: 0
+Stackers Amount Sold: 0
+Grain Waves Amount Sold: 0
+Cloud Popcorn Amount Sold: 0
+Moonpie Amount Sold: 0
+Cowtales Amount Sold: 0
+Wonka Bar Amount Sold: 0
+Crunchie Amount Sold: 0
+Cola Amount Sold: 0
+Dr. Salt Amount Sold: 0
+Mountain Melter Amount Sold: 0
+Heavy Amount Sold: 0
+U-Chews Amount Sold: 0
+Little League Chew Amount Sold: 0
+Chiclets Amount Sold: 0
+Triplemint Amount Sold: 1
+
+***TOTAL SALES*** $0.75
+Potato Crisps Amount Sold: 0
+Stackers Amount Sold: 0
+Grain Waves Amount Sold: 0
+Cloud Popcorn Amount Sold: 1
+Moonpie Amount Sold: 0
+Cowtales Amount Sold: 0
+Wonka Bar Amount Sold: 0
+Crunchie Amount Sold: 0
+Cola Amount Sold: 0
+Dr. Salt Amount Sold: 0
+Mountain Melter Amount Sold: 0
+Heavy Amount Sold: 0
+U-Chews Amount Sold: 0
+Little League Chew Amount Sold: 0
+Chiclets Amount Sold: 0
+Triplemint Amount Sold: 0
+
+***TOTAL SALES*** $3.65
+
+Potato Crisps Amount Sold: 0
+Stackers Amount Sold: 0
+Grain Waves Amount Sold: 0
+Cloud Popcorn Amount Sold: 0
+Moonpie Amount Sold: 0
+Cowtales Amount Sold: 0
+Wonka Bar Amount Sold: 0
+Crunchie Amount Sold: 0
+Cola Amount Sold: 0
+Dr. Salt Amount Sold: 1
+Mountain Melter Amount Sold: 0
+Heavy Amount Sold: 0
+U-Chews Amount Sold: 0
+Little League Chew Amount Sold: 0
+Chiclets Amount Sold: 0
+Triplemint Amount Sold: 0
+
+***TOTAL SALES*** $1.50

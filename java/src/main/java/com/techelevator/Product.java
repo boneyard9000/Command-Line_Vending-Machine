@@ -9,7 +9,7 @@ public abstract class Product{
 	private String name = "";
 	private String kind = "";
 	private String sound;
-	private static int amountOfProduct;
+	private int amountOfProduct = 5;
 	private int numberSold = 0;
 	
 	
@@ -27,7 +27,11 @@ public abstract class Product{
 	amountOfProduct --;
 	}
 	
-	public static int getCurrentAmount() {
+	public void setAmountOfProduct(int amountOfProduct) {
+		this.amountOfProduct = amountOfProduct;
+	}
+	
+	public int getCurrentAmount() {
 		return amountOfProduct;
 	}
 
@@ -63,11 +67,6 @@ public abstract class Product{
 	public void setKind(String kind) {
 		this.kind = kind;
 	}
-	public int getInventorySold() {
-
-		return amountOfProduct - Product.getCurrentAmount();
-
-		}
 	
 	public void trackSales() {
 		numberSold ++;

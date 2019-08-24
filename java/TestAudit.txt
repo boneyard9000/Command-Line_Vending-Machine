@@ -4,3 +4,38 @@
 22:01:26.081 2019-06-09 Grain Waves A3 Starting Balance: $22.55 Ending Balance: $19.8
 22:01:28.866 2019-06-09 Heavy C4 Starting Balance: $19.8 Ending Balance: $18.3
 22:01:29.874 2019-06-09 MAKE CHANGE: $18.3 Ending Balance: $0.00
+14:13:43.897 2019-08-24 FEED AMOUNT: $5.0 Ending Balance: $5.0
+14:13:51.017 2019-08-24 Potato Crisps A1 Starting Balance: $5.0 Ending Balance: $1.9500000000000002
+14:13:57.272 2019-08-24 MAKE CHANGE: $1.9500000000000002 Ending Balance: $0.00
+14:15:59.399 2019-08-24 FEED AMOUNT: $100.0 Ending Balance: $100.0
+14:16:02.657 2019-08-24 Heavy C4 Starting Balance: $100.0 Ending Balance: $98.5
+14:16:08.383 2019-08-24 Stackers A2 Starting Balance: $98.5 Ending Balance: $97.05
+14:16:13.938 2019-08-24 Triplemint D4 Starting Balance: $97.05 Ending Balance: $96.3
+14:16:15.741 2019-08-24 MAKE CHANGE: $96.3 Ending Balance: $0.00
+14:18:19.586 2019-08-24 FEED AMOUNT: $100.0 Ending Balance: $100.0
+14:18:22.981 2019-08-24 Potato Crisps A1 Starting Balance: $100.0 Ending Balance: $96.95
+14:18:26.636 2019-08-24 Potato Crisps A1 Starting Balance: $96.95 Ending Balance: $93.9
+14:18:29.313 2019-08-24 Potato Crisps A1 Starting Balance: $93.9 Ending Balance: $90.85000000000001
+14:18:32.422 2019-08-24 Potato Crisps A1 Starting Balance: $90.85000000000001 Ending Balance: $87.80000000000001
+14:18:40.346 2019-08-24 Stackers A2 Starting Balance: $87.80000000000001 Ending Balance: $86.35000000000001
+14:18:45.810 2019-08-24 Stackers A2 Starting Balance: $86.35000000000001 Ending Balance: $84.9
+14:18:48.981 2019-08-24 Stackers A2 Starting Balance: $84.9 Ending Balance: $83.45
+14:18:51.281 2019-08-24 Stackers A2 Starting Balance: $83.45 Ending Balance: $82.0
+14:18:58.444 2019-08-24 Mountain Melter C3 Starting Balance: $82.0 Ending Balance: $80.5
+14:19:01.650 2019-08-24 MAKE CHANGE: $80.5 Ending Balance: $0.00
+14:19:43.649 2019-08-24 FEED AMOUNT: $5.0 Ending Balance: $5.0
+14:19:48.379 2019-08-24 U-Chews D1 Starting Balance: $5.0 Ending Balance: $4.15
+14:19:49.994 2019-08-24 MAKE CHANGE: $4.15 Ending Balance: $0.00
+14:21:56.135 2019-08-24 FEED AMOUNT: $8.0 Ending Balance: $8.0
+14:22:00.761 2019-08-24 Little League Chew D2 Starting Balance: $8.0 Ending Balance: $7.05
+14:22:02.041 2019-08-24 MAKE CHANGE: $7.05 Ending Balance: $0.00
+14:24:48.698 2019-08-24 FEED AMOUNT: $8.0 Ending Balance: $8.0
+14:24:52.550 2019-08-24 Triplemint D4 Starting Balance: $8.0 Ending Balance: $7.25
+14:24:55.989 2019-08-24 MAKE CHANGE: $7.25 Ending Balance: $0.00
+14:26:11.261 2019-08-24 FEED AMOUNT: $2.0 Ending Balance: $2.0
+14:26:24.892 2019-08-24 FEED AMOUNT: $3.0 Ending Balance: $5.0
+14:26:29.126 2019-08-24 Cloud Popcorn A4 Starting Balance: $5.0 Ending Balance: $1.35
+14:26:32.456 2019-08-24 MAKE CHANGE: $1.35 Ending Balance: $0.00
+14:26:50.289 2019-08-24 FEED AMOUNT: $5.0 Ending Balance: $5.0
+14:26:55.303 2019-08-24 Dr. Salt C2 Starting Balance: $5.0 Ending Balance: $3.5
+14:26:57.243 2019-08-24 MAKE CHANGE: $3.5 Ending Balance: $0.00
