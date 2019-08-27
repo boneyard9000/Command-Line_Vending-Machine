@@ -39,3 +39,10 @@
 14:26:50.289 2019-08-24 FEED AMOUNT: $5.0 Ending Balance: $5.0
 14:26:55.303 2019-08-24 Dr. Salt C2 Starting Balance: $5.0 Ending Balance: $3.5
 14:26:57.243 2019-08-24 MAKE CHANGE: $3.5 Ending Balance: $0.00
+20:28:07.995 2019-08-26 FEED AMOUNT: $4 Ending Balance: $4
+20:28:19.380 2019-08-26 FEED AMOUNT: $5 Ending Balance: $9
+20:28:26.588 2019-08-26 Grain Waves A3 Starting Balance: $9.00 Ending Balance: $6.25
+20:28:44.023 2019-08-26 FEED AMOUNT: $3 Ending Balance: $9.25
+20:28:52.281 2019-08-26 MAKE CHANGE: $9.25 Ending Balance: $0.00
+20:32:25.648 2019-08-26 FEED AMOUNT: $4 Ending Balance: $4
+20:32:31.406 2019-08-26 Little League Chew D2 Starting Balance: $4.00 Ending Balance: $3.05

@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 public abstract class Product{
 	
 	private String slot = "";
-	private double price = 0;
+	private BigDecimal price;
 	private String name = "";
 	private String kind = "";
 	private String sound;
@@ -15,7 +15,7 @@ public abstract class Product{
 	
 	
 	
-	public Product (String name, double price, String slot) {
+	public Product (String name, BigDecimal price, String slot) {
 		this.name = name;
 		this.price = price;
 		this.slot = slot;
@@ -40,7 +40,7 @@ public abstract class Product{
 	}
 	public abstract String getSound();
 
-	public double getPrice() {
+	public BigDecimal getPrice() {
 		return price;
 	}
 
@@ -56,7 +56,7 @@ public abstract class Product{
 		this.slot = slot;
 	}
 
-	public void setPrice(double price) {
+	public void setPrice(BigDecimal price) {
 		this.price = price;
 	}
 

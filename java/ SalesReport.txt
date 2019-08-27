@@ -173,3 +173,23 @@ Chiclets Amount Sold: 0
 Triplemint Amount Sold: 0
 
 ***TOTAL SALES*** $1.50
+
+
+Potato Crisps Amount Sold: 0
+Stackers Amount Sold: 0
+Grain Waves Amount Sold: 1
+Cloud Popcorn Amount Sold: 0
+Moonpie Amount Sold: 0
+Cowtales Amount Sold: 0
+Wonka Bar Amount Sold: 0
+Crunchie Amount Sold: 0
+Cola Amount Sold: 0
+Dr. Salt Amount Sold: 0
+Mountain Melter Amount Sold: 0
+Heavy Amount Sold: 0
+U-Chews Amount Sold: 0
+Little League Chew Amount Sold: 0
+Chiclets Amount Sold: 0
+Triplemint Amount Sold: 0
+
+***TOTAL SALES*** $2.75

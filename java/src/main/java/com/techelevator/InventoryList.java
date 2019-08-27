@@ -24,14 +24,14 @@ public class InventoryList {
 	
 	private String productName;
 	private String changeLine;	
-	private double balance1;
+	private BigDecimal balance1 = new BigDecimal(0);
 	private int quarters;
 	private int dime;
 	private int nickels;
-	private double totalSales = 0;
+	private BigDecimal totalSales = new BigDecimal(0);
 	private  Map<String, Product> vendingItems = new LinkedHashMap<String, Product>();
 	List<Product> productList = new ArrayList<>();
-	public double currentBalance = 0;
+	public BigDecimal currentBalance;
 	int currentAmount;
 	//Audit newAudit = new Audit();
 	PrintWriter auditWriter = null;
@@ -65,7 +65,7 @@ public class InventoryList {
 			String slot = itemArray[0];
 			String name = itemArray[1];
 			String priceString = itemArray[2];
-			double price = Double.parseDouble(priceString);
+			BigDecimal price = BigDecimal.valueOf(Double.parseDouble(priceString));
 			String kind = itemArray[3];
 			
 			if(kind.equals("Chip")) {
@@ -129,11 +129,11 @@ public class InventoryList {
 	
 	
 
-	public double addMoney(double depositAmount) {
+	public BigDecimal addMoney(BigDecimal depositAmount) {
 		
 		LocalDate.now();
 		
-		currentBalance += depositAmount;
+		currentBalance = currentBalance.add(depositAmount);
 		return currentBalance;
 	}
 	
@@ -150,8 +150,8 @@ public class InventoryList {
 		return vendingItems;
 	}
 	
-	public double getPriceOfSelection(String selection) {
-		double priceOfSelection = vendingItems.get(selection).getPrice();
+	public BigDecimal getPriceOfSelection(String selection) {
+		BigDecimal priceOfSelection = vendingItems.get(selection).getPrice();
 		return priceOfSelection;
 	}
 	
@@ -168,7 +168,7 @@ public class InventoryList {
 	}	
 	
 	
-	public double getCurrentBalance() {
+	public BigDecimal getCurrentBalance() {
 		return currentBalance;
 	}
 	
@@ -177,43 +177,28 @@ public class InventoryList {
 	}
 	
 	
-	public double addMoney(int depositAmount) {
-		
-		currentBalance += depositAmount;
-		
-		return currentBalance;
-	}
 	
-	public double setBalanceToZero() {
-		currentBalance = 0;
+	
+	public BigDecimal setBalanceToZero() {
+		currentBalance = BigDecimal.valueOf(0);
 		return currentBalance;
 	}
 	
 	public void makePurchase(String selection) {
-		currentBalance -= getPriceOfSelection(selection);
-		totalSales += getPriceOfSelection(selection);
+		currentBalance = currentBalance.subtract(getPriceOfSelection(selection));
+		totalSales = totalSales.add(getPriceOfSelection(selection));
 		vendingItems.get(selection).trackSales();
 	}
 	
-	public String giveChange(double balance) {
+	public String giveChange(BigDecimal balance) {
 	
-		balance1 = (balance * 100);
 		
-		
-		quarters =  (int) (balance1 / 25);
-		balance1 = balance1 - (quarters * 25);
-		dime = ((int) balance1 / 10);
-		balance1 = balance1 - (dime * 10);
-		nickels = ((int) balance1 / 5);
-		
-		
-		
-		changeLine	= "Your change is " + quarters + " quarter(s) and " + dime + " dime(s) and " + nickels + " nickel(s). ";
+		changeLine	= "Your change is " + balance;
 		
 		return changeLine;
 	}
 	
-	public void updateLogDeposit(double depositAmount, double currentBalance) throws FileNotFoundException {
+	public void updateLogDeposit(BigDecimal depositAmount, BigDecimal currentBalance) throws FileNotFoundException {
 		LocalDate today = LocalDate.now();
 		LocalTime now = LocalTime.now();
 		String printToday = today.toString();
@@ -224,7 +209,7 @@ public class InventoryList {
 		auditWriter.close();
 	}
 	
-	public void updateLogPurchase(String productName, String key, double startingBalance, double currentBalance) throws FileNotFoundException {
+	public void updateLogPurchase(String productName, String key, BigDecimal startingBalance, BigDecimal currentBalance) throws FileNotFoundException {
 		LocalDate today = LocalDate.now();
 		LocalTime now = LocalTime.now();
 		String printToday = today.toString();
@@ -236,7 +221,7 @@ public class InventoryList {
 		auditWriter.close();
 	}
 	
-	public void updateLogMakeChange(double currentBalance) throws FileNotFoundException {
+	public void updateLogMakeChange(BigDecimal currentBalance) throws FileNotFoundException {
 		LocalDate today = LocalDate.now();
 		LocalTime now = LocalTime.now();
 		String printToday = today.toString();
@@ -283,16 +268,6 @@ public class InventoryList {
    	  salesFile.add(salesReportLine);
    	 }
    	}
-	
-	 
-	/* test if audit printing is working by printing test to new file TestAudit.txt at vending machine startup
-	public void testPrint() throws FileNotFoundException {
-		auditWriter = new PrintWriter(new FileOutputStream("TestAudit.txt", true));
-
-		auditWriter.println("test");
-		auditWriter.close();
-	}
-	*/
 	
 	
 	

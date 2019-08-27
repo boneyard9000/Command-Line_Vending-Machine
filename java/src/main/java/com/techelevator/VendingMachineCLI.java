@@ -3,6 +3,7 @@ package com.techelevator;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.util.Map;
 import java.util.Scanner;
@@ -79,7 +80,8 @@ public class VendingMachineCLI extends InventoryList {
 					if (subMenuChoice.equals(SUB_MENU_OPTION_FEED_MONEY)) {
 						try {
 							System.out.println("Please enter money in a whole dollar amount");
-							int depositAmount = Integer.parseInt(inputScanner.nextLine());
+							int intDeposit = Integer.parseInt(inputScanner.nextLine());
+							BigDecimal depositAmount = new BigDecimal(intDeposit);
 							theInventory.addMoney(depositAmount);
 							theInventory.updateLogDeposit(depositAmount, theInventory.getCurrentBalance());
 							System.out.println(formatted.format(theInventory.getCurrentBalance()));
@@ -87,14 +89,20 @@ public class VendingMachineCLI extends InventoryList {
 							System.out.println("Coins are not accepted. Please insert a whole dollar amount.");
 						}
 					} else if (subMenuChoice.equals(SUB_MENU_OPTION_PURCHASE)) {
+						System.out.println();
+						System.out.println("Here's what We've got!");
+						System.out.println();
+						System.out.println(theInventory.printInventory());
+						System.out.println();
 						System.out.println("Please make a selection");
-						String selection = inputScanner.nextLine();
+
+						String selection = inputScanner.nextLine().toUpperCase();
 						while (!theInventory.isValidSelection(selection)) {
 							System.out.println("Invalid Selection!  Please choose another");
 							selection = inputScanner.nextLine();
 						}
 						if (theInventory.isValidSelection(selection)) {
-							if (theInventory.getCurrentBalance() < theInventory.getPriceOfSelection(selection)) {
+							if (theInventory.getCurrentBalance().compareTo(theInventory.getPriceOfSelection(selection)) < 0) {
 								System.out.println("Sorry, you need more funds for this transaction.");
 							} else {
 								if (theInventory.getAmountOfProduct(selection) <= 0) {
@@ -103,8 +111,7 @@ public class VendingMachineCLI extends InventoryList {
 									theInventory.removeStock(selection);
 									theInventory.makePurchase(selection);
 									theInventory.updateLogPurchase(theInventory.getProductName(selection), selection,
-											(theInventory.getPriceOfSelection(selection)
-													+ theInventory.getCurrentBalance()),
+											(theInventory.getPriceOfSelection(selection).add(theInventory.getCurrentBalance())),
 											theInventory.getCurrentBalance());
 									System.out.println(formatted.format(theInventory.getCurrentBalance()));
 									System.out.println(theInventory.getAmountOfProduct(selection));
@@ -120,7 +127,7 @@ public class VendingMachineCLI extends InventoryList {
 						theInventory.updateLogMakeChange(theInventory.getCurrentBalance());
 						System.out.println(theInventory.giveChange(theInventory.getCurrentBalance()));
 						System.out.println("Have a great day!");
-						currentBalance = 0;
+						currentBalance = BigDecimal.valueOf(0);
 						usingSubMenu = false;
 					}
 				}
