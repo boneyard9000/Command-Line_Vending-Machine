@@ -116,6 +116,7 @@ public class VendingMachineCLI extends InventoryList {
 									System.out.println(formatted.format(theInventory.getCurrentBalance()));
 									System.out.println(theInventory.getAmountOfProduct(selection));
 									System.out.println(theInventory.getSound(selection));
+									System.out.println();
 								}
 
 							}
